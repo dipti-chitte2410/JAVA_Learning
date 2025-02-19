@@ -22,4 +22,13 @@
 -> Dynamically Sized pools
 -> size limited pools
 
+All Java objects have a lock
+Can access with synchronised methods
+-> Acquire lock of target instance of cell
+-> Only one active at a time on an object
+
+Can manually acquire lock
+-> use synchronised statement block
+-> Available to any code referencing object
+
 
